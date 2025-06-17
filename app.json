@@ -4,17 +4,11 @@
     "slug": "habitloop",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#3B82F6"
-    },
-    "notification": {
-      "icon": "./assets/images/notification-icon.png",
-      "color": "#3B82F6"
     },
     "newArchEnabled": true,
     "ios": {
@@ -22,12 +16,25 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "single",
-      "favicon": "./assets/images/favicon.png"
+      "output": "single"
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "0e8045d6-8a57-4618-a5a8-36cc11d3bc53"
+      }
+    },
+    "android": {
+      "package": "com.havebit"
+    },
+    "owner": "rezezi"
   }
 }
