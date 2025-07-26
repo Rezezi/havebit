@@ -14,12 +14,16 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package": "com.havebit"
+    },
     "web": {
       "bundler": "metro",
       "output": "single"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true
@@ -31,9 +35,6 @@
       "eas": {
         "projectId": "0e8045d6-8a57-4618-a5a8-36cc11d3bc53"
       }
-    },
-    "android": {
-      "package": "com.havebit"
     },
     "owner": "rezezi"
   }

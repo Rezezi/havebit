@@ -7,7 +7,9 @@ dist/
 web-build/
 expo-env.d.ts
 
-# native
+# native (jaga-jaga jika suatu saat prebuild/generate native folder)
+android/
+ios/
 *.orig.*
 *.jks
 *.p8
